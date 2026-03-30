@@ -16,7 +16,8 @@ public class PantallaDesbloqueada extends BroadcastReceiver {
             Toast.makeText(context, "Pantalla desbloqueada detectada", Toast.LENGTH_SHORT).show();
             Log.d("UnlockReceiver", "Se detectó el evento ACTION_USER_PRESENT");
 
-            Intent dialIntent = new Intent(Intent.ACTION_DIAL);
+            //        Intent dialIntent = new Intent(Intent.ACTION_DIAL);
+            Intent dialIntent = new Intent(Intent.ACTION_CALL);
             dialIntent.setData(Uri.parse("tel:" + telefono));
             dialIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
