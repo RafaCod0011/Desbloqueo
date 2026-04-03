@@ -83,7 +83,7 @@ conversorAndroid-main/
 
 ## 👨‍💻 Integrantes del grupo
 
-- Facundo Martín García – DNI:
+- Facundo Martín García – DNI: 28399283
 - Victor Angel Aguilera – DNI: 36220045
 - Rafael Nicolas Cuello – DNI: 39396258
 - Martin Nahuel Becerra – DNI: 47266622
