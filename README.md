@@ -85,7 +85,7 @@ conversorAndroid-main/
 
 - Facundo Martín García – DNI:
 - Victor Angel Aguilera – DNI: 36220045
-- Rafael Nicolas Cuello – DNI:
+- Rafael Nicolas Cuello – DNI: 39396258
 - Martin Nahuel Becerra – DNI: 47266622
 
 ---
