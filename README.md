@@ -19,21 +19,21 @@ La aplicación implementa un BroadcastReceiver que escucha el evento del sistema
 Este evento se activa cuando el usuario desbloquea la pantalla del dispositivo.
 
 Cada vez que se detecta este evento, la aplicación realiza automáticamente las siguientes acciones:
-🔔 Muestra un Toast con el mensaje: "Pantalla desbloqueada detectada"
-📝 Registra un mensaje en Logcat indicando que el dispositivo fue desbloqueado.
-📞 Genera un Intent implícito para abrir la app de teléfono con el número: 2664553747
+- 🔔 Muestra un Toast con el mensaje: "Pantalla desbloqueada detectada"
+- 📝 Registra un mensaje en Logcat indicando que el dispositivo fue desbloqueado.
+- 📞 Genera un Intent implícito para abrir la app de teléfono con el número: 2664553747
 
 ---
 
 ## 🚀 Funcionalidades implementadas
 
-✅ Detección automática del evento de desbloqueo del dispositivo
-✅ Implementación de un BroadcastReceiver registrado en el Manifest
-✅ Mostrar un Toast informativo
-✅ Registro del evento en Logcat
-✅ Intent implícito para abrir la aplicación de llamadas
-✅ Interfaz simple con pantalla inicial del TP
-✅ Código organizado y comentado
+- ✅ Detección automática del evento de desbloqueo del dispositivo
+- ✅ Implementación de un BroadcastReceiver registrado en el Manifest
+- ✅ Mostrar un Toast informativo
+- ✅ Registro del evento en Logcat
+- ✅ Intent implícito para abrir la aplicación de llamadas
+- ✅ Interfaz simple con pantalla inicial del TP
+- ✅ Código organizado y comentado
 
 ---
 
@@ -73,20 +73,20 @@ conversorAndroid-main/
 
 ## ⚙️ Cómo ejecutar el proyecto
 
-Clonar el repositorio: git clone https://github.com/RafaCod0011/Desbloqueo.git
-Abrir el proyecto en Android Studio
-Esperar que Gradle sincronice
-Ejecutar la app en un emulador o dispositivo físico
-Bloquear y desbloquear la pantalla para activar el BroadcastReceiver
+- Clonar el repositorio: git clone https://github.com/RafaCod0011/Desbloqueo.git
+- Abrir el proyecto en Android Studio
+- Esperar que Gradle sincronice
+- Ejecutar la app en un emulador o dispositivo físico
+- Bloquear y desbloquear la pantalla para activar el BroadcastReceiver
 
 ---
 
 ## 👨‍💻 Integrantes del grupo
 
-Facundo Martín García – DNI:
-Victor Angel Aguilera – DNI:
-Rafael Nicolas Cuello – DNI:
-Martin Nahuel Becerra – DNI: 47266622
+- Facundo Martín García – DNI:
+- Victor Angel Aguilera – DNI: 36220045
+- Rafael Nicolas Cuello – DNI:
+- Martin Nahuel Becerra – DNI: 47266622
 
 ---
 
