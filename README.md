@@ -1,6 +1,6 @@
 # 📱 Trabajo Práctico 2 – BroadcastReceiver
 
-Este proyecto corresponde al Trabajo Práctico Nº2 de Programación Móvil, cuyo objetivo es implementar un BroadcastReceiver capaz de detectar eventos del sistema y responder mediante Intents implícitos.
+Este proyecto corresponde al Trabajo Práctico Nº2 de Programación de dispositivos Móviles, cuyo objetivo es implementar un BroadcastReceiver capaz de detectar eventos del sistema y responder mediante Intents implícitos.
 
 La aplicación fue desarrollada en Android Studio con Java, poniendo en práctica el uso de componentes de Android, ciclo de vida del sistema, eventos globales y manejo de acciones automáticas dentro del dispositivo.
 
@@ -19,9 +19,10 @@ La aplicación implementa un BroadcastReceiver que escucha el evento del sistema
 Este evento se activa cuando el usuario desbloquea la pantalla del dispositivo.
 
 Cada vez que se detecta este evento, la aplicación realiza automáticamente las siguientes acciones:
-- 🔔 Muestra un Toast con el mensaje: "Pantalla desbloqueada detectada"
+- 💬 La primera vez que se ejecuta la app, se pide permiso al usuario para poder realizar llamadas desde el dispositivo.
+- 🔔 Muestra un Toast con el mensaje: "Pantalla desbloqueada detectada".
 - 📝 Registra un mensaje en Logcat indicando que el dispositivo fue desbloqueado.
-- 📞 Genera un Intent implícito para abrir la app de teléfono con el número: 2664553747
+- 📞 Genera un Intent implícito para abrir la app de teléfono con el número: 2664553747 y lo llama automáticamente.
 
 ---
 
